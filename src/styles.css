@@ -49,20 +49,20 @@ main { padding: 24px 23px 48px; }
 .filters {
   display: flex;
   flex-wrap: wrap;
-  gap: 8px;
+  gap: 9px;
   max-width: 1080px;
   margin-bottom: 23px;
 }
 
 .filter {
-  min-height: 29px;
-  padding: 5px 11px 4px;
+  min-height: 35px;
+  padding: 7px 13px 6px;
   border: 1px solid var(--line);
   border-radius: 0;
   background: rgba(244, 240, 233, .75);
   text-transform: uppercase;
   letter-spacing: .105em;
-  font: 10px/1.2 "Courier New", monospace;
+  font: 12px/1.2 "Courier New", monospace;
   cursor: pointer;
   transition: color 130ms ease, background 130ms ease, transform 130ms ease;
 }
@@ -90,7 +90,7 @@ main { padding: 24px 23px 48px; }
 }
 
 .filter.is-active .filter-count { color: #e3a18c; }
-.filter-icon { margin-right: 8px; font-size: 7px; }
+.filter-icon { margin-right: 8px; font-size: 8px; }
 
 .grid {
   display: grid;
@@ -143,8 +143,8 @@ main { padding: 24px 23px 48px; }
 
 .card-body {
   display: block;
-  min-height: 134px;
-  padding: 12px 14px 11px;
+  min-height: 148px;
+  padding: 14px 14px 12px;
 }
 
 .card-heading {
@@ -157,7 +157,7 @@ main { padding: 24px 23px 48px; }
 
 .card-title {
   overflow: hidden;
-  font: 20px/1.1 Georgia, "Times New Roman", serif;
+  font: 22px/1.1 Georgia, "Times New Roman", serif;
   white-space: nowrap;
   text-overflow: ellipsis;
 }
@@ -165,7 +165,7 @@ main { padding: 24px 23px 48px; }
 .card-note {
   overflow: hidden;
   color: var(--muted);
-  font: 9px/1.2 "Courier New", monospace;
+  font: 11px/1.2 "Courier New", monospace;
   white-space: nowrap;
   text-overflow: ellipsis;
 }
@@ -175,7 +175,7 @@ main { padding: 24px 23px 48px; }
   flex-wrap: wrap;
   align-items: center;
   gap: 4px;
-  min-height: 47px;
+  min-height: 51px;
 }
 
 .tag {
@@ -183,12 +183,12 @@ main { padding: 24px 23px 48px; }
   padding: 5px 8px 4px;
   border: 1px solid #d3cabe;
   background: #ebe5db;
-  font: 10px/1 "Courier New", monospace;
+  font: 11px/1 "Courier New", monospace;
 }
 
 .more {
   color: var(--muted);
-  font: 10px "Courier New", monospace;
+  font: 11px "Courier New", monospace;
 }
 
 .card-footer {
@@ -197,7 +197,7 @@ main { padding: 24px 23px 48px; }
   gap: 8px;
   margin-top: 8px;
   color: var(--muted);
-  font: 9px/1 "Courier New", monospace;
+  font: 10px/1 "Courier New", monospace;
   letter-spacing: .08em;
 }
 
@@ -259,7 +259,7 @@ main { padding: 24px 23px 48px; }
   margin: 0 0 25px;
   color: var(--muted);
   text-transform: uppercase;
-  font: 10px "Courier New", monospace;
+  font: 11px "Courier New", monospace;
   letter-spacing: .08em;
 }
 
@@ -272,7 +272,7 @@ main { padding: 24px 23px 48px; }
 .detail-note {
   margin: 10px 0 24px;
   color: var(--muted);
-  font: 12px "Courier New", monospace;
+  font: 13px "Courier New", monospace;
 }
 
 .detail-tags {
@@ -291,7 +291,7 @@ main { padding: 24px 23px 48px; }
   justify-content: space-between;
   padding: 10px 0;
   border-bottom: 1px solid #cfc6ba;
-  font: 10px "Courier New", monospace;
+  font: 11px "Courier New", monospace;
 }
 
 .detail dt {
@@ -319,7 +319,7 @@ main { padding: 24px 23px 48px; }
 @media (max-width: 620px) {
   main { padding: 14px 12px 30px; }
   .filters { gap: 6px; margin-bottom: 14px; }
-  .filter { padding-inline: 8px; font-size: 9px; }
+  .filter { padding-inline: 9px; font-size: 10px; }
   .grid { grid-template-columns: 1fr; gap: 12px; }
 
   .card-heading {
