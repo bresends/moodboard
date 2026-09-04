@@ -567,4 +567,47 @@ export const references: Reference[] = [
       ],
     },
   },
+  {
+    id: 16,
+    title: 'OpenSea Terminal',
+    note: 'black terminal × ice signal',
+    category: 'Data-As-Texture',
+    styles: ['dark trading terminal', 'data-dense marketplace', 'frosted wireframe'],
+    tags: [
+      'near-black surface ladder',
+      'ice-blue information signal',
+      'compact three-pane shell',
+      'monospace market data',
+    ],
+    searchTerms: [
+      'dark crypto trading terminal UI',
+      'dense marketplace dashboard design',
+      'near black data interface blue accent',
+    ],
+    image: 'images/opensea-terminal.jpg',
+    alt: 'Interface escura do OpenSea com arte em destaque, grade de tokens e painel lateral denso de preços e coleções.',
+    referenceStyle: true,
+    sourceUrl: 'https://opensea.io/settings/developer',
+    styleSourceUrl: 'https://styles.refero.design/style/61f1902f-6da3-4af7-b046-3b08bc1377f6',
+    guide: {
+      palette: [
+        { name: 'Void', value: '#080809' },
+        { name: 'Obsidian', value: '#141415' },
+        { name: 'Charcoal', value: '#1b1d1f' },
+        { name: 'Graphite', value: '#26272d' },
+        { name: 'Fog', value: '#acadae' },
+        { name: 'Ice Signal', value: '#83c3ff' },
+      ],
+      typography: [
+        'gtAmerica 400–500 — interface, labels, and headings',
+        'gtAmerica Mono 400–500 — prices, addresses, and numeric data',
+      ],
+      principles: [
+        'Build hierarchy through tiny steps between near-black surfaces.',
+        'Reserve ice blue for links, verification, and outlined actions.',
+        'Use inset white-alpha hairlines instead of drop shadows.',
+        'Keep spacing compact and container radii at four or eight pixels.',
+      ],
+    },
+  },
 ]
