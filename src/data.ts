@@ -263,4 +263,47 @@ export const references: Reference[] = [
       ],
     },
   },
+  {
+    id: 9,
+    title: 'Acctual',
+    note: 'paper invoice × frosted glass',
+    category: 'Soft Interface Glow',
+    styles: ['product editorial', 'soft minimalism', 'paper UI'],
+    tags: [
+      'bright white canvas',
+      'geometric rounded type',
+      'pill-shaped controls',
+      'layered invoice mockups',
+    ],
+    searchTerms: [
+      'paper UI fintech landing page',
+      'minimal invoicing SaaS website',
+      'floating document mockup web design',
+    ],
+    image: 'images/acctual.jpg',
+    alt: 'Home do Acctual com fundo branco, título central, detalhes em azul e faturas empilhadas sobre uma mesa clara.',
+    referenceStyle: true,
+    sourceUrl: 'https://www.acctual.com/',
+    styleSourceUrl: 'https://styles.refero.design/style/aeefc294-a8f7-443d-b76a-538dddc29afe',
+    guide: {
+      palette: [
+        { name: 'Electric Blue', value: '#0098f2' },
+        { name: 'Iris', value: '#6c56fc' },
+        { name: 'Magenta', value: '#f200ca' },
+        { name: 'Midnight', value: '#0d111b' },
+        { name: 'Mist', value: '#ccd1da' },
+        { name: 'Paper', value: '#ffffff' },
+      ],
+      typography: [
+        'Open Runde 500–600 — display, body, and interface',
+        'Caveat 600 — testimonial signatures only',
+      ],
+      principles: [
+        'Use tight tracking on geometric display headlines.',
+        'Keep primary actions dark and reserve blue for punctuation.',
+        'Use 16px cards, 32px feature panels, and pill controls.',
+        'Create depth with slightly rotated, overlapping documents.',
+      ],
+    },
+  },
 ]
