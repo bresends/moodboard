@@ -610,4 +610,47 @@ export const references: Reference[] = [
       ],
     },
   },
+  {
+    id: 17,
+    title: 'Portrait',
+    note: 'polaroid memory × rainbow thread',
+    category: 'Soft Interface Glow',
+    styles: ['digital scrapbook', 'pastel minimalism', 'personal web'],
+    tags: [
+      'tilted polaroid photo cards',
+      'deep navy single ink',
+      'rainbow outline action',
+      'floating pill navigation',
+    ],
+    searchTerms: [
+      'digital scrapbook landing page',
+      'pastel personal profile website',
+      'polaroid collage web design',
+    ],
+    image: 'images/portrait.jpg',
+    alt: 'Home do Portrait com título azul-marinho, palavra em arco-íris e fotografias inclinadas flutuando sobre papel branco.',
+    referenceStyle: true,
+    sourceUrl: 'https://portrait.so/',
+    styleSourceUrl: 'https://styles.refero.design/style/6b51388b-d00f-4b22-8297-68fb9fc00bc7',
+    guide: {
+      palette: [
+        { name: 'Portrait Ink', value: '#08304c' },
+        { name: 'Nautical Teal', value: '#084e72' },
+        { name: 'White Canvas', value: '#ffffff' },
+        { name: 'Mint Wash', value: '#d7ffe2' },
+        { name: 'Sky Wash', value: '#e8f1ff' },
+        { name: 'Peach Wash', value: '#ffebd6' },
+      ],
+      typography: [
+        'Basier Circle 500–600 — compressed display headlines',
+        'Switzer 400–700 — body, navigation, and interface',
+      ],
+      principles: [
+        'Let deep navy carry almost all text and structural lines.',
+        'Use the rainbow only on one outline and one italic word per view.',
+        'Scatter lightly tilted photo cards like a personal scrapbook.',
+        'Keep cards soft at 24px and actions slightly rounder at 28px.',
+      ],
+    },
+  },
 ]
