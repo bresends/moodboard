@@ -1,4 +1,5 @@
 export const categories = [
+  'Print-Tech Paper',
   'Soft Interface Glow',
   'Dither Mono',
   'Vast Quiet Cinematic',
@@ -17,6 +18,13 @@ export interface Reference {
   image: string
   alt: string
   referenceStyle: boolean
+  sourceUrl?: string
+  styleSourceUrl?: string
+  guide?: {
+    palette: { name: string; value: string }[]
+    typography: string[]
+    principles: string[]
+  }
 }
 
 export const references: Reference[] = [
@@ -124,5 +132,48 @@ export const references: Reference[] = [
     image: 'images/codeflare-login-studies.png',
     alt: 'Dois estudos de tela de login da CodeFlare, combinando fotografia monocromática cinematográfica com formulários claros e escuros.',
     referenceStyle: true,
+  },
+  {
+    id: 6,
+    title: 'Caldera',
+    note: 'forge fire × warm limestone',
+    category: 'Print-Tech Paper',
+    styles: ['print-tech', 'industrial editorial', 'flat design'],
+    tags: [
+      'orange violet halftone',
+      'ultrabold condensed type',
+      'warm limestone canvas',
+      'large pill controls',
+    ],
+    searchTerms: [
+      'industrial condensed typography web design',
+      'orange purple halftone website',
+      'warm paper flat design landing page',
+    ],
+    image: 'images/caldera.jpg',
+    alt: 'Home do Caldera com título preto condensado, fundo cinza quente e grandes campos de halftone laranja e violeta.',
+    referenceStyle: true,
+    sourceUrl: 'https://caldera.xyz/',
+    styleSourceUrl: 'https://styles.refero.design/style/fe8cdcf9-c850-4d52-be07-5ad269bf9ebf',
+    guide: {
+      palette: [
+        { name: 'Ember', value: '#fc5000' },
+        { name: 'Plasma Violet', value: '#524ae9' },
+        { name: 'Sulfur', value: '#f5f28e' },
+        { name: 'Obsidian', value: '#070607' },
+        { name: 'Pumice', value: '#e2e2df' },
+        { name: 'Limestone', value: '#f7f6f2' },
+      ],
+      typography: [
+        'PP Neue Corp Compact — display',
+        'DM Sans Medium — body',
+      ],
+      principles: [
+        'Use display type at architectural scale.',
+        'Keep surfaces flat and free of drop shadows.',
+        'Reserve vivid orange for actions and focal points.',
+        'Use 40px radii and fully rounded pill controls.',
+      ],
+    },
   },
 ]

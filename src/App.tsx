@@ -112,6 +112,16 @@ export function App() {
               <p className="eyebrow"><span className="diamond">◆</span> {selected.category}</p>
               <h2>{selected.title}</h2>
               <p className="detail-note">{selected.note}</p>
+              {(selected.sourceUrl || selected.styleSourceUrl) && (
+                <div className="source-links">
+                  {selected.sourceUrl && (
+                    <a href={selected.sourceUrl} target="_blank" rel="noreferrer">Visit site ↗</a>
+                  )}
+                  {selected.styleSourceUrl && (
+                    <a href={selected.styleSourceUrl} target="_blank" rel="noreferrer">Style source ↗</a>
+                  )}
+                </div>
+              )}
               <section className="style-guide" aria-labelledby={`style-guide-${selected.id}`}>
                 <h3 id={`style-guide-${selected.id}`}>Style guide</h3>
 
@@ -128,6 +138,37 @@ export function App() {
                     {selected.tags.map((tag) => <span className="tag" key={tag}>{tag}</span>)}
                   </div>
                 </div>
+
+                {selected.guide && (
+                  <>
+                    <div className="guide-group">
+                      <p>Color palette</p>
+                      <div className="palette">
+                        {selected.guide.palette.map((color) => (
+                          <span className="color-token" key={color.value} title={`${color.name} ${color.value}`}>
+                            <span className="swatch" style={{ backgroundColor: color.value }} />
+                            <span>{color.name}</span>
+                            <code>{color.value}</code>
+                          </span>
+                        ))}
+                      </div>
+                    </div>
+
+                    <div className="guide-group">
+                      <p>Typography</p>
+                      <ul className="guide-list">
+                        {selected.guide.typography.map((item) => <li key={item}>{item}</li>)}
+                      </ul>
+                    </div>
+
+                    <div className="guide-group">
+                      <p>Design principles</p>
+                      <ul className="guide-list">
+                        {selected.guide.principles.map((item) => <li key={item}>{item}</li>)}
+                      </ul>
+                    </div>
+                  </>
+                )}
 
                 <div className="guide-group">
                   <p>Search similar</p>

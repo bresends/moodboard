@@ -22,6 +22,18 @@ Cada item também possui famílias de estilo, técnicas visuais e termos de busc
 Os termos aparecem como links para encontrar referências semelhantes sem
 depender de um serviço interno de pesquisa.
 
+### Adicionando um site
+
+1. Capture a página em um viewport desktop e salve em `public/images/`.
+2. Adicione uma nova referência em `src/data.ts`, usando o próximo `id`.
+3. Preencha `sourceUrl` com o endereço original do site.
+4. Se houver uma análise externa, informe-a em `styleSourceUrl`.
+5. Use `guide` para registrar paleta, tipografia e princípios reutilizáveis.
+6. Rode `npm run build` antes de enviar a mudança.
+
+Campos de guia são opcionais. O catálogo continua funcionando quando só há
+imagem, título, categoria, estilos, técnicas e termos de busca.
+
 ## GitHub Pages
 
 O workflow `.github/workflows/deploy-pages.yml` publica a pasta `dist` a cada

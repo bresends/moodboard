@@ -282,6 +282,28 @@ main { padding: 24px 23px 48px; }
   font: 13px "Courier New", monospace;
 }
 
+.source-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: -10px;
+}
+
+.source-links a {
+  padding: 7px 9px 6px;
+  border: 1px solid var(--line);
+  color: var(--ink);
+  text-decoration: none;
+  text-transform: uppercase;
+  font: 10px/1 "Courier New", monospace;
+  letter-spacing: .05em;
+}
+
+.source-links a:hover {
+  color: var(--paper);
+  background: var(--ink);
+}
+
 .detail-tags {
   display: flex;
   flex-wrap: wrap;
@@ -309,6 +331,53 @@ main { padding: 24px 23px 48px; }
   text-transform: uppercase;
   font: 10px/1 "Courier New", monospace;
   letter-spacing: .09em;
+}
+
+.palette {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 7px;
+}
+
+.color-token {
+  display: grid;
+  grid-template-columns: 18px minmax(0, 1fr);
+  gap: 2px 7px;
+  align-items: center;
+  min-width: 0;
+  font: 10px/1.2 "Courier New", monospace;
+}
+
+.color-token .swatch {
+  grid-row: 1 / span 2;
+  width: 18px;
+  height: 30px;
+  border: 1px solid rgba(32, 28, 23, .3);
+}
+
+.color-token > span:nth-child(2) {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.color-token code {
+  color: var(--muted);
+  font: 9px/1 "Courier New", monospace;
+}
+
+.guide-list {
+  display: grid;
+  gap: 5px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font: 11px/1.35 "Courier New", monospace;
+}
+
+.guide-list li::before {
+  content: '— ';
+  color: var(--signal);
 }
 
 .search-terms {
