@@ -79,10 +79,10 @@ export function App() {
               </span>
 
               <span className="tags">
-                {reference.tags.slice(0, 3).map((tag) => (
-                  <span className="tag" key={tag}>{tag}</span>
+                {reference.styles.slice(0, 3).map((style) => (
+                  <span className="tag tag--style" key={style}>{style}</span>
                 ))}
-                {reference.tags.length > 3 && <span className="more">+{reference.tags.length - 3}</span>}
+                {reference.styles.length > 3 && <span className="more">+{reference.styles.length - 3}</span>}
               </span>
 
               <span className="card-footer">
@@ -112,9 +112,39 @@ export function App() {
               <p className="eyebrow"><span className="diamond">◆</span> {selected.category}</p>
               <h2>{selected.title}</h2>
               <p className="detail-note">{selected.note}</p>
-              <div className="detail-tags">
-                {selected.tags.map((tag) => <span className="tag" key={tag}>{tag}</span>)}
-              </div>
+              <section className="style-guide" aria-labelledby={`style-guide-${selected.id}`}>
+                <h3 id={`style-guide-${selected.id}`}>Style guide</h3>
+
+                <div className="guide-group">
+                  <p>Style family</p>
+                  <div className="detail-tags">
+                    {selected.styles.map((style) => <span className="tag tag--style" key={style}>{style}</span>)}
+                  </div>
+                </div>
+
+                <div className="guide-group">
+                  <p>Visual techniques</p>
+                  <div className="detail-tags">
+                    {selected.tags.map((tag) => <span className="tag" key={tag}>{tag}</span>)}
+                  </div>
+                </div>
+
+                <div className="guide-group">
+                  <p>Search similar</p>
+                  <div className="search-terms">
+                    {selected.searchTerms.map((term) => (
+                      <a
+                        href={`https://www.google.com/search?tbm=isch&q=${encodeURIComponent(term)}`}
+                        target="_blank"
+                        rel="noreferrer"
+                        key={term}
+                      >
+                        {term}<span aria-hidden="true"> ↗</span>
+                      </a>
+                    ))}
+                  </div>
+                </div>
+              </section>
               <dl>
                 <div><dt>Reference</dt><dd>{String(selected.id).padStart(2, '0')} / {references.length}</dd></div>
                 <div><dt>Collection</dt><dd>Reference styles</dd></div>

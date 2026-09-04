@@ -18,6 +18,10 @@ adicionar uma referência, copie a imagem, crie um item no catálogo e escolha
 uma categoria. Manter tudo no repositório torna o deploy previsível e dispensa
 credenciais.
 
+Cada item também possui famílias de estilo, técnicas visuais e termos de busca.
+Os termos aparecem como links para encontrar referências semelhantes sem
+depender de um serviço interno de pesquisa.
+
 ## GitHub Pages
 
 O workflow `.github/workflows/deploy-pages.yml` publica a pasta `dist` a cada

@@ -186,6 +186,13 @@ main { padding: 24px 23px 48px; }
   font: 11px/1 "Courier New", monospace;
 }
 
+.tag--style {
+  border-color: #bdb1a3;
+  background: #e5ddd1;
+  text-transform: uppercase;
+  letter-spacing: .035em;
+}
+
 .more {
   color: var(--muted);
   font: 11px "Courier New", monospace;
@@ -280,6 +287,42 @@ main { padding: 24px 23px 48px; }
   flex-wrap: wrap;
   gap: 5px;
 }
+
+.style-guide {
+  margin-top: 30px;
+  padding-top: 18px;
+  border-top: 1px solid #bdb4a8;
+}
+
+.style-guide h3 {
+  margin: 0 0 20px;
+  text-transform: uppercase;
+  font: 12px/1 "Courier New", monospace;
+  letter-spacing: .12em;
+}
+
+.guide-group + .guide-group { margin-top: 19px; }
+
+.guide-group > p {
+  margin: 0 0 8px;
+  color: var(--muted);
+  text-transform: uppercase;
+  font: 10px/1 "Courier New", monospace;
+  letter-spacing: .09em;
+}
+
+.search-terms {
+  display: grid;
+  gap: 6px;
+}
+
+.search-terms a {
+  color: var(--ink);
+  font: 11px/1.35 "Courier New", monospace;
+  text-underline-offset: 3px;
+}
+
+.search-terms a:hover { color: var(--signal); }
 
 .detail dl {
   margin: 35px 0 0;
