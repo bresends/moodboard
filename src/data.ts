@@ -438,4 +438,47 @@ export const references: Reference[] = [
       ],
     },
   },
+  {
+    id: 13,
+    title: 'Steep',
+    note: 'serif analytics × blush paper',
+    category: 'Print-Tech Paper',
+    styles: ['editorial analytics', 'serif product design', 'soft data UI'],
+    tags: [
+      'oversized editorial serif',
+      'floating analytics fragments',
+      'rare blush peach accent',
+      'pill-shaped action pairs',
+    ],
+    searchTerms: [
+      'editorial analytics landing page',
+      'serif data product website',
+      'floating dashboard fragments design',
+    ],
+    image: 'images/steep.jpg',
+    alt: 'Home do Steep com grande título serifado sobre campo branco e rosado, cercado por cartões flutuantes de analytics.',
+    referenceStyle: true,
+    sourceUrl: 'https://steep.app/',
+    styleSourceUrl: 'https://styles.refero.design/style/75fdb89f-ca64-41b3-af36-7a78bd09448e',
+    guide: {
+      palette: [
+        { name: 'Ink Black', value: '#17191c' },
+        { name: 'Paper White', value: '#ffffff' },
+        { name: 'Mist Gray', value: '#f2f2f3' },
+        { name: 'Slate Gray', value: '#777b86' },
+        { name: 'Blush Peach', value: '#fbe1d1' },
+        { name: 'Sienna Brown', value: '#5d2a1a' },
+      ],
+      typography: [
+        'Signifier 400 — oversized editorial display',
+        'Söhne 400–500 — body, navigation, and interface',
+      ],
+      principles: [
+        'Use regular serif display type to whisper rather than shout.',
+        'Limit blush peach to one editorial emphasis per page.',
+        'Float product fragments around copy instead of using a dashboard shell.',
+        'Pair a filled dark pill with a matching ghost action.',
+      ],
+    },
+  },
 ]
