@@ -394,4 +394,48 @@ export const references: Reference[] = [
       ],
     },
   },
+  {
+    id: 12,
+    title: 'ElevenLabs',
+    note: 'eggshell paper × chromatic sound',
+    category: 'Soft Interface Glow',
+    styles: ['warm editorial minimalism', 'bauhaus tech', 'soft product UI'],
+    tags: [
+      'warm eggshell canvas',
+      'whisper-weight headlines',
+      'fully rounded pill controls',
+      'gradient audio spheres',
+    ],
+    searchTerms: [
+      'warm editorial AI landing page',
+      'bauhaus cream paper website',
+      'soft gradient sphere web design',
+    ],
+    image: 'images/elevenlabs.jpg',
+    alt: 'Home do ElevenLabs sobre fundo eggshell com título leve, botões pill e esferas coloridas representando produtos de áudio.',
+    referenceStyle: true,
+    sourceUrl: 'https://elevenlabs.io/',
+    styleSourceUrl: 'https://styles.refero.design/style/031056ff-7af1-46db-8daa-115f731c5d26',
+    guide: {
+      palette: [
+        { name: 'Eggshell', value: '#fdfcfc' },
+        { name: 'Warm Taupe', value: '#f5f3f1' },
+        { name: 'Stone', value: '#ebe8e4' },
+        { name: 'Ink', value: '#000000' },
+        { name: 'Violet Spark', value: '#0447ff' },
+        { name: 'Ember Orange', value: '#ff4704' },
+      ],
+      typography: [
+        'Waldenburg 300 — whisper-weight display headlines',
+        'Inter 400–500 — body, navigation, and controls',
+        'Geist Mono 400 — technical microcopy',
+      ],
+      principles: [
+        'Stack eggshell, warm taupe, and stone instead of cold whites.',
+        'Keep display headlines light with tight negative tracking.',
+        'Reserve violet and orange for product imagery, never UI chrome.',
+        'Use black and outlined pill buttons as the complete action hierarchy.',
+      ],
+    },
+  },
 ]
