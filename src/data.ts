@@ -525,4 +525,46 @@ export const references: Reference[] = [
       ],
     },
   },
+  {
+    id: 15,
+    title: 'OpenSea Learn',
+    note: 'pastel cloud × token toys',
+    category: 'Soft Interface Glow',
+    styles: ['playful 3D', 'education editorial', 'pastel Web3'],
+    tags: [
+      'atmospheric pastel gradient',
+      'toy-like 3D illustration',
+      'bold geometric headline',
+      'saturated learning cards',
+    ],
+    searchTerms: [
+      'playful 3D education landing page',
+      'pastel Web3 onboarding website',
+      'soft gradient learning hub design',
+    ],
+    image: 'images/opensea-learn.png',
+    alt: 'OpenSea Learn com livro e ficha em 3D sobre névoa pastel, título geométrico e cartões educacionais coloridos.',
+    referenceStyle: true,
+    sourceUrl: 'https://opensea.io/learn',
+    guide: {
+      palette: [
+        { name: 'Cloud White', value: '#ffffff' },
+        { name: 'Mint Haze', value: '#effbe8' },
+        { name: 'Lavender Haze', value: '#eee8ff' },
+        { name: 'Ocean Blue', value: '#2081e2' },
+        { name: 'Sun Glow', value: '#ffd84a' },
+        { name: 'Ink', value: '#111111' },
+      ],
+      typography: [
+        'Geometric sans — hero, navigation, and article headings',
+        'Condensed mono — uppercase section eyebrow',
+      ],
+      principles: [
+        'Use large blurred color fields as atmosphere, not containers.',
+        'Pair soft gradients with tactile toy-like educational objects.',
+        'Keep navigation and headlines dark for clarity over the haze.',
+        'Give content categories distinct saturated card colors.',
+      ],
+    },
+  },
 ]
