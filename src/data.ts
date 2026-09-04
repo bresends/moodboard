@@ -481,4 +481,48 @@ export const references: Reference[] = [
       ],
     },
   },
+  {
+    id: 14,
+    title: 'Dub',
+    note: 'rice paper × electric link',
+    category: 'Data-As-Texture',
+    styles: ['editorial SaaS', 'border-first minimalism', 'compact dashboard'],
+    tags: [
+      'white-on-white hairline surfaces',
+      'electric blue signal',
+      'colored feature pills',
+      'product dashboard hero',
+    ],
+    searchTerms: [
+      'border first SaaS landing page',
+      'frosted white analytics dashboard',
+      'compact product UI website design',
+    ],
+    image: 'images/dub.jpg',
+    alt: 'Home do Dub com painel branco de atribuição de links, pequenos indicadores coloridos e logotipos em escala de cinza.',
+    referenceStyle: true,
+    sourceUrl: 'https://dub.co/',
+    styleSourceUrl: 'https://styles.refero.design/style/b0d80806-b724-4ed1-a1d1-074edd3c9bc9',
+    guide: {
+      palette: [
+        { name: 'Canvas White', value: '#ffffff' },
+        { name: 'Paper Mist', value: '#f5f5f5' },
+        { name: 'Ash Border', value: '#e5e5e5' },
+        { name: 'Charcoal', value: '#171717' },
+        { name: 'Electric Blue', value: '#2563eb' },
+        { name: 'Deep Sapphire', value: '#1e40af' },
+      ],
+      typography: [
+        'Satoshi 500 — contemporary display headlines',
+        'Inter 400–600 — body, interface, and navigation',
+        'Geist Mono 400–500 — code and technical metadata',
+      ],
+      principles: [
+        'Define white surfaces with one-pixel borders before using shadows.',
+        'Reserve deep sapphire for one primary action per surface.',
+        'Give each feature pill exactly one chromatic accent.',
+        'Use real product UI and desaturated logos as the imagery system.',
+      ],
+    },
+  },
 ]
