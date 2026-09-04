@@ -351,4 +351,47 @@ export const references: Reference[] = [
       ],
     },
   },
+  {
+    id: 11,
+    title: 'Linear',
+    note: 'midnight precision × acid signal',
+    category: 'Vast Quiet Cinematic',
+    styles: ['dark product minimalism', 'precision interface', 'neo-grotesk tech'],
+    tags: [
+      'near-black layered surfaces',
+      'half-pixel hairline borders',
+      'acid-lime primary action',
+      'product screenshot hero',
+    ],
+    searchTerms: [
+      'dark precision SaaS landing page',
+      'midnight product interface design',
+      'acid lime developer tool website',
+    ],
+    image: 'images/linear.jpg',
+    alt: 'Home do Linear em fundo quase preto com título branco e uma grande captura escura da interface do produto.',
+    referenceStyle: true,
+    sourceUrl: 'https://linear.app/',
+    styleSourceUrl: 'https://styles.refero.design/style/90ce5883-bb24-4466-93f7-801cd617b0d1',
+    guide: {
+      palette: [
+        { name: 'Void', value: '#08090a' },
+        { name: 'Carbon', value: '#0f1011' },
+        { name: 'Graphite', value: '#23252a' },
+        { name: 'Fog', value: '#8a8f98' },
+        { name: 'Paper', value: '#ffffff' },
+        { name: 'Acid Lime', value: '#e4f222' },
+      ],
+      typography: [
+        'Inter Variable 400–510 — display, body, and interface',
+        'Berkeley Mono 400 — issue IDs and technical metadata',
+      ],
+      principles: [
+        'Treat near-black darkness as the continuous substrate.',
+        'Use acid lime for only one primary action per view.',
+        'Build elevation with surface steps and hairline borders.',
+        'Let real product UI provide the page visual texture.',
+      ],
+    },
+  },
 ]
